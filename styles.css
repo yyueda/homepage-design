@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
     font-family: "Roboto", sans-serif;
@@ -30,10 +30,49 @@ a {
 }
 
 .header {
-    padding: 0 100px;
+    padding: 0 200px;
     background-color: #1F2937;
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.intro {
+    background-color: #1F2937;
+    padding: 100px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro-text {
+    width: 400px;
+}
+
+.intro h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.intro p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.intro button {
+    font-family: "Roboto", sans-serif;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 16px;
+}
+
+.intro img {
+    width: 400px;
+    height: auto;
 }
 
 .footer {
