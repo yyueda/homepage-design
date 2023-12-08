@@ -12,13 +12,28 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    height: 50px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header-links {
     display: flex;
     gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header {
+    padding: 0 100px;
+    background-color: #1F2937;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .footer {
