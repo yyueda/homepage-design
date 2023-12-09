@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
 
 body {
     font-family: "Roboto", sans-serif;
@@ -38,7 +38,7 @@ a {
 
 .intro {
     background-color: #1F2937;
-    padding: 50px 200px;
+    padding: 20px 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -72,8 +72,8 @@ a {
 }
 
 .intro img {
-    width: 450px;
-    height: 250px;
+    width: 400px;
+    height: 200px;
 }
 
 .info img {
@@ -103,8 +103,33 @@ a {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding: 20px;
 }
 
+.quote p, .quote h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.quote p {
+    width: 625px;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote h2 {
+    align-self: flex-end;
+    padding-right: 500px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .footer {
     margin-top: auto;
